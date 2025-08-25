@@ -21,7 +21,10 @@ The application is completely **open source** (no proprietary tools like Power B
 - 💡 **Open Source Stack** → Python, Pandas, Flask, Plotly  
 
 ---
+## ⚡ Libraries
+- flask pandas plotly openpyxl 
 
+---
 ## 🛠️ Tech Stack
 - **Backend**: Flask (Python)  
 - **Frontend**: Bootstrap 5, HTML, CSS, Jinja2 Templates  
