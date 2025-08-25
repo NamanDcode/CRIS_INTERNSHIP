@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+  <h1 class="fw-bold text-primary">🚆 GMT Railway Data Analysis</h1>
+  <p class="lead text-muted">Explore Division-wise, Zone-wise, and Overall IR Reports</p>
+</div>
+
+<div class="row mt-5">
+  <div class="col-md-4">
+    <div class="card shadow-lg p-3 mb-4 bg-white rounded border-0">
+      <h3 class="text-primary">Division Report</h3>
+      <p>Yearly analysis of divisions across Indian Railways.</p>
+      <a href="/division" class="btn btn-primary w-100">View Report</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow-lg p-3 mb-4 bg-white rounded border-0">
+      <h3 class="text-success">Zone Report</h3>
+      <p>Compare yearly GMT trends across railway zones.</p>
+      <a href="/zone" class="btn btn-success w-100">View Report</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow-lg p-3 mb-4 bg-white rounded border-0">
+      <h3 class="text-danger">Overall IR Report</h3>
+      <p>Complete Indian Railways GMT analysis over the years.</p>
+      <a href="/overall" class="btn btn-danger w-100">View Report</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
